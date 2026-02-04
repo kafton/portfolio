@@ -131,58 +131,39 @@ export const navMedia = [
 ];
 
 const services = [
-  {
-    title: "Digital Marketing",
-    icon: vr,
+  { title: "SEO Specialist", 
+   icon: "web" 
   },
-  {
-    title: "SEO",
-    icon: unity,
+  { title: "Performance Marketer", 
+   icon: "mobile" 
   },
-  {
-    title: "Social Media Manager ",
-    icon: software_engineer,
+  { title: "Social Media Strategist", 
+   icon: "backend" 
   },
-  {
-    title: "Content Creation",
-    icon: generative_ai,
+  { title: "WordPress Manager", 
+   icon: "creator" 
   },
 ];
 
 const technologies = [
-  {
-    name: "WordPress Website Development & Management",
-    icon: python,
+ { name: "SEO", 
+  icon: seoIcon 
+ },
+  { name: "Google Analytics",
+   icon: analyticsIcon 
   },
-  {
-    name: "Google Analytics & Performance Tracking",
-    icon: swift,
+  { name: "Meta Ads", 
+   icon: metaIcon
   },
-  {
-    name: "SEMrush",
-    icon: csharp,
+  { name: "WordPress", 
+   icon: wordpressIcon 
   },
-  {
-    name: "Ahrefs",
-    icon: cpp,
+  { name: "Canva", 
+   icon: canvaIcon 
   },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "HTML ",
-    icon: html,
-  },
-  {
-    name: "Domain & DNS Management",
-    icon: css,
-  },
-  {
-    name: "Google Analytics",
-    icon: reactjs,
-  },
-  
+  { name: "SEMrush",
+   icon: semrushIcon 
+  },  
 ];
 
 const experiences = [
@@ -217,6 +198,7 @@ const experiences = [
       "I managed WordPress websites and optimized pages using SEO plugins.",
     ],
   },
+  {
   title: "Azure Intern",
     company_name: "Linnk Academy – India",
     date: "Oct 2022 – April 2023",
@@ -225,6 +207,7 @@ const experiences = [
       "Worked with cloud services, virtual networking, and identity management.",
     ],
   },
+  {
   title: "Junior PHP Developer",
     company_name: "UFLORET TECHNOLOGIES – India",
     date: "Feb 2022 – Aug 2022",
@@ -237,10 +220,12 @@ const experiences = [
 
 const projects = [
   {
-    name: "Fast Business Service",
+    name: "Lead Generation Campaign – Business Setup Company",
     description:
-      "Designed and developed a complete business setup services website for a Dubai-based consultancy. Created SEO-optimized content, structured service pages, and implemented conversion-focused UI/UX to improve lead generation. ",
-    tags: [
+      "Created and optimized Meta Ads campaigns generating consistent business setup inquiries in Dubai.",
+    tags: ["Meta Ads", "Lead Generation", "Performance Marketing"],
+  },
+  [
       {
         name: "TypeScript",
         color: "blue-text-gradient",
