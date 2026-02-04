@@ -88,20 +88,18 @@ const About = () => {
                 className="mt-4 text-secondary text-[17px] min-[1000px]:max-w-lg w-full leading-[30px]"
                 style={{ textAlign: "justify" }}
               >
-                I'm a Senior studying Computer Science at Stanford University
-                set to graduate with both a Bachelor's and Master's by June
-                2025. I'm currently searching for full-time positions in SWE or
-                XR development.
+                I am a Digital Marketing Executive with 1.5+ years of experience in SEO, social media marketing, Meta Ads, content creation, and WordPress website management. 
+                I have worked with businesses in both India and the UAE, helping them improve online visibility and generate quality leads.
                 <br /> <br />
-                I have over four years of experience developing interactive,
-                human-centered applications. Last summer I was an AR/VR Software
-                Engineer at Apple, working with the Vision Products Group.
-                <br /> <br />I love working with people, and I'm always looking
+               I enjoy building strong online presence for brands through clean websites, engaging content, and data-based marketing strategies.
+                I am always learning and upgrading my skills to stay updated with the latest digital trends. 
+                Currently based in Dubai, I am looking for opportunities where I can contribute to business growth and develop further as a digital marketing professional.
+               <br /> <br />I love working with people, and I'm always looking
                 for new opportunities to grow. If this interests you, check out
                 my resume and links below! And feel free to reach out at
-                <a href="mailto:stevenle@stanford.edu">
+                <a href="mailto:abduljubairudma@gmail.com">
                   {" "}
-                  <u>stevenle@stanford.edu</u>{" "}
+                  <u>abduljubairudma@gmail.com</u>{" "}
                 </a>
                 if want to learn more and chat!
               </p>
@@ -135,7 +133,7 @@ const About = () => {
           <Tilt className="h-full max-[1000px]:my-14">
             <div class="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none">
               <a
-                href="https://www.linkedin.com/in/stevenle1337/"
+                href="linkedin.com/in/abdul-jubair-pa"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -155,7 +153,7 @@ const About = () => {
           <Tilt className="h-full max-[1000px]:my-14">
             <div class="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none">
               <a
-                href="https://github.com/StevenLe2012"
+                href="https://github.com/kafton/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -175,7 +173,7 @@ const About = () => {
           <Tilt className="h-full max-[1000px]:my-14">
             <div class="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none">
               <a
-                href="mailto:stevenle@stanford.edu"
+                href="mailto:abduljubairudma@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -196,7 +194,7 @@ const About = () => {
             <div class="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none">
               <a
                 href={resume}
-                title="Steven Le Resume"
+                title="Abdul Jubair Resume"
                 target="_blank"
                 className="py-3 px-8 rounded-xl outline-none text-white font-bold z-10"
               >
