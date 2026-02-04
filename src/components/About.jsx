@@ -70,7 +70,7 @@ const About = () => {
       <div ref={aboutRef}>
         <motion.div variants={textVariant()}>
           <div variants={textVariant()}>
-            <h2 className={styles.sectionHeadText}>Hey, I'm Steven!</h2>
+            <h2 className={styles.sectionHeadText}>Hey, I'm Abdul!</h2>
           </div>
         </motion.div>
 
