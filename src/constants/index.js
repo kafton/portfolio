@@ -131,38 +131,28 @@ export const navMedia = [
 ];
 
 const services = [
-  { title: "SEO Specialist", 
-   icon: "web" 
-  },
+  { title: "SEO Specialist"
+   },
   { title: "Performance Marketer", 
-   icon: "mobile" 
   },
   { title: "Social Media Strategist", 
-   icon: "backend" 
   },
   { title: "WordPress Manager", 
-   icon: "creator" 
   },
 ];
 
 const technologies = [
  { name: "SEO", 
-  icon: seoIcon 
  },
   { name: "Google Analytics",
-   icon: analyticsIcon 
   },
   { name: "Meta Ads", 
-   icon: metaIcon
   },
   { name: "WordPress", 
-   icon: wordpressIcon 
   },
   { name: "Canva", 
-   icon: canvaIcon 
   },
-  { name: "SEMrush",
-   icon: semrushIcon 
+  { name: "SEMrush", 
   },  
 ];
 
@@ -255,9 +245,6 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: rune_wars,
-    source_code_link: "https://github.com/StevenLe2012/rune-wars",
-    youtube_demo_link: "https://youtu.be/ITNNkPJjDDg?si=lv8O11zPw1DfXDTi",
   },
 ];
 
