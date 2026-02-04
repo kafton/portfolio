@@ -71,9 +71,9 @@ const Contact = () => {
         "template_ihxjroj",
         {
           from_name: form.name,
-          to_name: "Steven Le",
+          to_name: "Abdul Jubair",
           from_email: form.email,
-          to_email: "stevenle@stanford.edu",
+          to_email: "abduljubairudma@gmail.com",
           message: form.message,
         },
         "LCOrdCVKPnNTsFKU5"
@@ -93,7 +93,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again. Or email directly me at stevenle@stanford.edu.");
+          alert("Ahh, something went wrong. Please try again. Or email directly me at abduljubairudma@gmail.com.");
         }
       );
   };
