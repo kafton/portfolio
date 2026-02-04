@@ -45,7 +45,7 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-13 h-8 object-contain' />
           <p className='text-white text-[20px] font-bold cursor-pointer flex '>
-            Steven Le
+            Abdul Jubair
           </p>
         </Link>
 
@@ -58,7 +58,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(null)}>
                 {/* Render something else for the resume link */}
-                <a href={resume} title="Steven Le Resume" target="_blank">
+                <a href={resume} title="Abdul Jubair Resume" target="_blank">
                   {nav.title}
                 </a>
               </li>
@@ -126,7 +126,7 @@ const Navbar = () => {
                     setActive(null);
                   }}
                 >
-                  <a href={resume} title="Steven Le Resume" target="_blank">{nav.title}</a>
+                  <a href={resume} title="Abdul Jubair Resume" target="_blank">{nav.title}</a>
                 </li>
               ) : (
                 <li

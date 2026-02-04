@@ -213,45 +213,34 @@ const projects = [
     name: "Lead Generation Campaign – Business Setup Company",
     description:
       "Created and optimized Meta Ads campaigns generating consistent business setup inquiries in Dubai.",
-    tags: ["Meta Ads", "Lead Generation", "Performance Marketing"],
-  },
-  [
+    tags: [
       {
-        name: "TypeScript",
+        name: "Meta Ads",
         color: "blue-text-gradient",
       },
       {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Lens Studio",
+        name: "Lead Generation",
         color: "green-text-gradient",
       },
       {
-        name: "Snap Spectacles",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Connected Lens",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Blender",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Scene Understanding",
+        name: "Performance Marketing",
         color: "pink-text-gradient",
       },
     ],
+    image: carrent,
+    source_code_link: "https://github.com/",
   },
 ];
 
+
+const testimonials = [];
+const programs = [];
 
 export {
   services,
   technologies,
   experiences,
   projects,
+  testimonials,
+  programs,
 };

@@ -24,8 +24,12 @@ const Tech = () => {
           >
             <div className='xs:w-[115px] w-full'>
               <div className='w-28 h-27 p-[2px] green-pink-gradient rounded-full' style={{ transform: 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)' }}>
-                <div class="bg-tertiary rounded-full py-5 flex justify-evenly items-center flex-col">
-                    <img src={technology.icon} class="w-16 h-16 object-contain" alt={technology.name}/>
+                <div className="bg-tertiary rounded-full py-5 flex justify-evenly items-center flex-col">
+                    {technology.icon ? (
+                      <img src={technology.icon} className="w-16 h-16 object-contain" alt={technology.name}/>
+                    ) : (
+                      <p className="text-white text-[12px] font-bold text-center px-2">{technology.name}</p>
+                    )}
                 </div>
               </div>
             </div>
